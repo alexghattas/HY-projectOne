@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Chilli Resaurante - Coffe, Bar and Restuarante - Silver Spring, MD</title>
+	<meta name="description" content="Chilli Restaurnte is a modern, cleam and beautiful Mexican style resturante located in Silver Spring, MD">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Source+Sans+Pro:300,400" rel="stylesheet">
+
+</head>
+<body>
+	<div class="wrapper">
+
+		<header>
+			<div class="container">
+				<nav class="secondaryNav clearfix">
+					<div class="secondaryNavLeft">
+						<p>Welcome to Chilli Restaurant</p>
+					</div>
+					<div class="secondaryNavRight">
+						<ul>
+							<li><i class="fa fa-phone" aria-hidden="true"></i>(00) 123 456789</li>
+							<li><i class="fa fa-envelope" aria-hidden="true"></i>info@namecompany.com</li>
+							<li><i class="fa fa-search" aria-hidden="true"></i></li>
+						</ul>
+					</div>
+				</nav>
+			</div>	
+		</header>
+
+		<!-- Landing Fold -->
+		<section class="heroMenu">
+			<nav class="primaryNav clearfix">
+				<div class="container">
+					<div class="navLeft">
+						<img src="assets/chilli-logo.png" alt="Chilli's Restaurante Logo">
+					</div>
+					<div class="navRight">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="menu.html">Menu</a></li>
+							<li><a href="event.html">Event</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+				<div class="container">
+					<div class="heroTextMenu">  
+						<h1>Event List</h1>
+						<img src="assets/heading-underlineWhite.png" alt="Title or Heading underline">
+						<p>Home &#8226; Events &#8226; Detail</p>
+					</div>
+				</div>
+		</section>
+
+
+		
+		<section>
+			<div class="container eventsPage clearfix">
+
+				<img src="assets/eventsPage/event-01.jpg" alt="People having fun enjoying a glass of red wine">
+				<h4>Inceptos habitant blandit class tempus</h4>
+				<div class="eventsIcons">
+					<i class="fa fa-clock-o" aria-hidden="true"><span>7:00am - 11:15am</span></i>
+					<i class="fa fa-calendar-o" aria-hidden="true"><span>01 Nov 2015</span></i>
+					<i class="fa fa-map-marker" aria-hidden="true"><span>California</span></i>
+				</div>
+				<img src="assets/heading-underlineBlack.png" class="underlineBlack">
+				<div class="eventsParagraph">
+				<p>
+					Inceptos habitant blandit class tempus lectus platea diam conubia ante netus consequat pretium aliquam blandit, convallis ultrices ullamcorper semper cubilia etiam sodales donec class sem risus imperdiet curabitur duis eu ultricies tortor malesuada curabitur consectetur odio, taciti praesent lobortis dapibus nibh mollis imperdiet, quis quam volutpat proin ultricies mollis placerat faucibus suspendisse posuere.
+				</p>
+
+				<p>
+					Adipiscing etiam habitant tincidunt rutrum elementum eget nullam et eleifend vivamus integer hendrerit varius et non, rutrum ut aenean egestas dolor imperdiet gravida massa ultrices etiam nec felis vestibulum placerat tortor ornare suspendisse facilisis dolor ac scelerisque potenti, inceptos mattis nibh dolor gravida ante fames netus, gravida eu non blandit iaculis ad lobortis turpis euismod per hendrerit vel fusce nisl amet, at ultrices curabitur tempor primis nunc, class integer potenti etiam hendrerit cubilia.
+				</p>
+				</div>
+				<div>
+				<img src="assets/heading-underlineBlack.png" class="underlineBlack">
+				<div id="map"></div>
+					<script>
+				      function initMap() {
+				        var uluru = {lat: 43.651363, lng: -79.397804};
+				        var map = new google.maps.Map(document.getElementById('map'), {
+				          zoom: 15,
+				          center: uluru
+				        });
+				        var marker = new google.maps.Marker({
+				          position: uluru,
+				          map: map
+				        });
+				      }
+		    		</script>
+				    <script async defer
+				    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2phKmX7htpak6icfFHu4N8dgTF7JIbO8&callback=initMap">
+				    </script>
+
+				</div>
+				<div class="buttonsEvents">
+					<a href="#" class="buttonsEventsLeft">Priv Event</a>
+					<a href="#" class="buttonsEventsRight">Next Event</a>
+				</div>
+			</div>
+		</section>
+
+
+
+		<footer>
+			<section class="footerMainOne">
+				<div class="container">
+					<img src="assets/chilli-logoWhiteNoText.png">
+					<h3>Welcome to Chilli Restaurante</h3>
+					<p>Primis orci neque luctus dui justo enim tristique curae, laoreet volutpat aenean purus gravida curae orci eleifend blandit, netus fames aliquam posuere cras quisque mi mollis scelerisque cras dictumst adipiscing class leo nisi curabitur at nam ut in.</p>
+				</div>
+			</section>
+
+			<section class="footerMainTwo clearfix">
+				<div class="container">
+					<div class="footerMainTwoBoxes">
+						<h4>Newsletter</h4>
+						<p>Doner filet mignon bacon corned beef rump, frankfurter sirloin</p>
+						<form class="emailBoxFooter">
+							    <input type="text" id="newsletter" name="newsletter" placeholder="enter your email" />
+								<button type="submit">></button>
+						</form>
+					</div>
+					<div class="footerMainTwoBoxes clearfix footerMiddleBorder">
+						<h4>Open Hours</h4>
+						<ul>
+							<li>Mondays<span>Closed</span></li>
+							<li>Tue-Fri<span>10am - 12am</span></li>
+							<li>Sat-Sun<span>7am - 1am</span></li>
+							<li>Public Holidays<span>12pm - 12am</span></li>
+						</ul>
+					</div>
+					<div class="footerMainTwoBoxes footerMainTwoBox3 clearfix">
+						<h4>Address</h4>
+
+						<div class="footerMainTwoBox3List2">
+							<ul>
+								<li>1600 Blue Amphitheater Parkway,Mountain View, CA 94043, USA</li>
+								<li>(212) 620 5682 - (375) 620 5682</li>
+								<li>support@nootheme.com</li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+				
+			<section class="footerMainThree">
+				<div class="container">
+					<p>Copyright &copy; CHILLI Restaurante. Theme by <span>Nootheme</span></p>
+					<div>
+						<span class="fa-stack">
+						  <i class="fa fa-circle fa-stack-2x"></i>
+						  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+						</span>
+						<span class="fa-stack">
+						  <i class="fa fa-circle fa-stack-2x"></i>
+						  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+						</span>
+						<span class="fa-stack">
+						  <i class="fa fa-circle fa-stack-2x"></i>
+						  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+						</span>
+						<span class="fa-stack">
+						  <i class="fa fa-circle fa-stack-2x"></i>
+						  <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+						</span>
+					</div>
+				</div>
+			</section>
+		</footer>
+	</div>
+</body>
+</html>
